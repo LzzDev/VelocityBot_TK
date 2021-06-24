@@ -1,0 +1,1 @@
+module.exports = app => app.listen( app.port, () => console.log( 'App listening on port ' + app.port + ' [MODE: ' + app.NODE_ENV + ']' ) );
