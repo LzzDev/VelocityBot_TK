@@ -1,0 +1,47 @@
+{
+    "development": {
+        "port": 5000,
+        "API_KEY": "velocity-q0Wfi27KWE",
+        
+        "database": {
+            "database": "velocitybot_tk",
+            "username": "root",
+            "password": "password",
+            
+            "host": "127.0.0.1",
+            "dialect": "mysql"
+        },
+        "session": {
+            "secret": "velocity-bot-d2ZXsSyczI",
+            "resave": false,
+            "saveUninitialized": true,
+            "cookie": {
+                "secure": false
+            }
+        }
+    },
+    "production": {
+        "port": {
+            "http": 80,
+            "https": 443
+        },
+        "API_KEY": "velocity-q0Wfi27KWE",
+
+        "database": {
+            "database": "velocitybot_tk",
+            "username": "root",
+            "password": "password",
+            
+            "host": "127.0.0.1",
+            "dialect": "mysql"
+        },
+        "session": {
+            "secret": "velocity-bot-d2ZXsSyczI",
+            "resave": false,
+            "saveUninitialized": true,
+            "cookie": {
+                "secure": true
+            }
+        }
+    }
+}
